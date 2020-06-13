@@ -12,10 +12,10 @@ class Game
   [6, 4, 2]
   ]
   
-  def intialize(player_1 , player_2, board = Board.new)
+  def intialize(player_1 , player_2, board)
      @player_1 = player_1
     @player_2 = player_2
-    @board = board
+    @board = Board.new
   end 
 
   
